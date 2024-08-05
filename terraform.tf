@@ -1,5 +1,3 @@
 terraform {
-  required_providers {
-    local = {}
-  }
+  required_providers {}
 }
