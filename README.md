@@ -16,18 +16,12 @@ Changes to Outputs:
   + greeting = "Hello Reno"
 ```
 
-## [backend.tf](backend.tf)
-Configures the module using the local backend.
-
 ## [main.tf](main.tf)
 Blank. Most of your Resources and Data Sources will go here, unless a more specialized place is appropriate. See the
 Style Guide for more details.
 
 ## [outputs.tf](outputs.tf)
 A simple greeting based on [the name variable](variables.tf).
-
-## [providers.tf](providers.tf)
-Configures the module using the local provider.
 
 ## [terraform.tf](terraform.tf)
 Required providers.
